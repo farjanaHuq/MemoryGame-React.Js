@@ -4,7 +4,7 @@ import "./style.css";
 
 function Nav() {
   return (
-    <nav className="navbar">
+    <nav class="navbar">
     
         <a className="navbar-brand" href="/">
           Memory-Game
