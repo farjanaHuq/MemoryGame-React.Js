@@ -1,14 +1,17 @@
-import React, { Component } from 'react';
-import NavBrand from './components/navBrand'
+import React, { Component } from "react";
+import Jumbotron from "./components/Jumbotron";
+import Nav from "./components/Nav";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-          <h1>Clicky-Game</h1>
-      </div>
-    );
-  }
+
+class App extends Component{
+    render(){
+        return(
+            <div>
+                <Nav/>
+                <Jumbotron/>
+            </div>    
+        )
+    }
 }
 
 export default App;

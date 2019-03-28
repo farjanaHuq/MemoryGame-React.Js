@@ -1,0 +1,10 @@
+.jumbotron {
+  min-height: 300px;
+  padding-top: 100px;
+  text-align: center;
+  background-image: url(./image/circuit.png);
+}
+p.lead{
+  font-weight: bold;
+  color: white;
+}
