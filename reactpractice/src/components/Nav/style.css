@@ -10,3 +10,8 @@ a.navbar-brand{
   font-weight: bold;
   color: aliceblue;
 }
+
+#game-mesaage{
+   margin-right: 100px;
+   margin-left: 100px;
+}
