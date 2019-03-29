@@ -15,9 +15,9 @@ function Footer() {
            
             }}
             stickyStyles={{
-            height:"5rem",
+            height:"2rem",
             backgroundColor: "#708090",
-            padding: "2rem"
+            padding: "1rem"
             }}
          >
            Memory-Game! ©Farjana Huq 2019

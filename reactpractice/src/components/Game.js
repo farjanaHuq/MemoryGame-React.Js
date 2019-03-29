@@ -20,37 +20,39 @@ class Game extends Component{
         console.log('The image was clicked.');
 
         const id = Number(e.target.id);
-        const index = images.findIndex(elem => elem.id === id);
-        const shuffleImage = this.shuffle(this.state.images);
+        const shuffledImages = this.state.images;
+        //this.shuffle(this.state.images);
+        const index = shuffledImages.findIndex(elem => elem.id === id);
+        const guessLimit = this.state.images.length - 1;
          
+        console.log("Guess Limit", guessLimit);
         console.log("index", index);
         console.log("Image guessed", images[index].guessed);
-        console.log("Shuffle Image", shuffleImage);
+        console.log("Shuffle Image", shuffledImages);
+        
 
         if(!images[index].guessed){
                if(this.state.score === this.state.topScore) {
-                      this.updateScore(index, this.state.score+1, images, "Correct Guess");
+                   //user score increases after clicking an image for the first time
+                  this.increaseScore(index, "Correct Guess");
                }
-               else {
-                this.updateScore(index, this.state.score, images, "Clicked twice");
+               else if(images[index].guessed === true){
+                 //user score reset to 0 if an image is clicked twice
+                 this.resetUserScore(index,  "Clicked Twice");
                }
+
+            //    if( this.state.score === guessLimit){
+            //        //reset the game after winning the game
+            //       this.resetGame(index, "Congratulation! You Win!");
+            //    }
+            //    else{
+            //       //reset the game after loosing the game
+            //      this.resetGame(index, "Sorry! Try again!");
+            //    }
         }
-        
-
-
     };
 
-    updateScore = (index, score, images, msgForPlayer) => {
-         
-         images[index].guessed = true;
-         this.setState({
-                score: score,
-                topScore: score+1,
-                images: this.state.images,
-                msgForPlayer: msgForPlayer
-            })   
-    };
-    
+    //function to shuffle images from image array
     shuffle = array => {
         let counter = array.length;
         // While there are elements in the array
@@ -65,7 +67,37 @@ class Game extends Component{
            array[index] = temp;
         }
         return array;
-     }
+     };
+     
+     //function to increase the score and topScore
+     increaseScore = (index, newMessage) => {
+         
+        images[index].guessed = true;
+        this.setState({
+               score: this.state.score+1,
+               topScore: this.state.topScore+1,
+               msgForPlayer: newMessage
+           })   
+     };
+      
+      //function to reset the score to 0
+      resetUserScore = (newMessage) => {
+        this.setState({
+               score: 0,
+               msgForPlayer: newMessage
+           })   
+     };
+      
+     //function to reset the game
+     resetGame = (index, newMessage) => {
+         
+        images[index].guessed = false;
+        this.setState({
+               score: this.state.score,
+               topScore: this.state.topScore,
+               msgForPlayer: newMessage
+           })   
+     };
 
     render(){
         return(
