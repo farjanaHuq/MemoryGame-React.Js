@@ -20,7 +20,7 @@ function Footer() {
             padding: "2rem"
             }}
          >
-           Memory-Game! ©Farjana Huq
+           Memory-Game! ©Farjana Huq 2019
         </StickyFooter>
         </div>
     );
