@@ -1,14 +1,25 @@
-import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import React, { Component } from 'react';
+// import 'bootstrap/dist/css/bootstrap.min.css'
+// import ImageContainer from './imageContainer'
+// import images from './images'
 
 
-function Container() {
-    return (
-        <div class="container-fluid" >
-            images comes here
-        </div>
-    );
-  }
-  
+// class Container extends Component{
+      
+//     state = {
+//         images: images
+//     };
+ 
+//     render(){
+//         return (
+//             <div class="container-fluid" >
+//                {/* <ImageContainer
+//                     images={this.state.images}
+//                     handleGuess={this.handleGuess}
+//                /> */}
+//             </div>
+//         );
+//     }
+// }
 
 export default Container;

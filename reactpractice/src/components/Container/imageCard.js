@@ -7,10 +7,10 @@ class ImageCard extends Component {
          <div>
             <img
                src={this.props.image}
-               alt="emo-image"
+               alt="baby"
                class="image-card"
                id={this.props.id}
-               width="200" height="200"
+               width="220" height="200"
                onClick={this.props.handleGuess}
             />
          </div>

@@ -24,7 +24,7 @@ class ImageContainer extends Component {
 
    render() {
       return (
-         <div className="container image-flexbox d-flex flex-wrap">
+         <div class="container image-flexbox d-flex flex-wrap">
             {this.shuffle(this.props.images).map(elem => (
                <ImageCard
                   key={elem.id}
