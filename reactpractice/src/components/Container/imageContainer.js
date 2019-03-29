@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import components
 import ImageCard from './imageCard';
+import './style.css'
 
 
 class ImageContainer extends Component {
@@ -29,7 +30,7 @@ class ImageContainer extends Component {
                <ImageCard
                   key={elem.id}
                   id={elem.id}
-                  image={elem.image}
+                  src={elem.src}
                   guessed={elem.guessed}
                   handleGuess={this.props.handleGuess}
                />

@@ -5,9 +5,9 @@ class ImageCard extends Component {
    render() {
       return (
          <div>
-            <img
-               src={this.props.image}
-               alt="baby"
+            <img          
+               src={this.props.src}
+               alt=""
                class="image-card"
                id={this.props.id}
                width="220" height="200"

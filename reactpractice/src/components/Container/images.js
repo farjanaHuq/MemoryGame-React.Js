@@ -1,79 +1,94 @@
   var images =[
     {
         "id": 0,
-        "image": "./emoImages/img1.jpeg",
+        "src": "https://imgur.com/QSGFsV3.png",
         "guessed": false
      },
      {
         "id": 1,
-        "image": "./emoImages/img2.jpg",
+        "src": "https://imgur.com/rAx0jJe.png",
         "guessed": false
      },
      {
         "id": 2,
-        "image": "./emoImages/img3.jpeg",
+        "src": "https://imgur.com/8eeNy8v.png",  
         "guessed": false
      },
      {
         "id": 3,
-        "image": "./emoImages/img4.jpg",
+        "src": "https://imgur.com/uJ7dH48.png", 
         "guessed": false
      },
      {
         "id": 4,
-        "image": "./emoImages/img5.jpeg",
+        "src": "https://imgur.com/uoUyvXX.png",
         "guessed": false
      },
      {
         "id": 5,
-        "image": "./emoImages/img6.jpeg",
+        "src": "https://imgur.com/VrTaY1A.png",
         "guessed": false
      },
      {
         "id": 6,
-        "image": "./emoImages/img7.jpeg",
+        "src": "https://imgur.com/r6oHEDC.png",
         "guessed": false
      },
      {
         "id": 7,
-        "image": "./emoImages/img8.jpg",
+        "src": "https://imgur.com/AMQaQKq.png",
         "guessed": false
      },
      {
         "id": 8,
-        "image":"./emoImages/img9.jpeg",
+        "src":"https://imgur.com/Rr0XJVz.png",
         "guessed": false
      },
      {
         "id": 9,
-        "image": "./emoImages/img10.jpeg",
+        "src": "https://imgur.com/MAusgJC.png",
         "guessed": false
      },
      {
         "id": 10,
-        "image": "./emoImages/img11.jpeg",
+        "src": "https://imgur.com/dPanBYM.png",
         "guessed": false
      },
      {
         "id": 11,
-        "image": "./emoImages/img12.jpeg",
+        "src": "https://imgur.com/5AVHQTe.png",
         "guessed": false
      },
      {
       "id": 12,
-      "image": "./emoImages/img13.jpeg",
+      "src": "https://imgur.com/onVA6Zd.png",
       "guessed": false
    },
    {
       "id": 13,
-      "image": "./emoImages/img14.jpeg",
+      "src": "https://imgur.com/6oqaSG4.png",
       "guessed": false
    },
    {
       "id": 14,
-      "image": "./emoImages/baby1.jpg",
+      "src": "https://imgur.com/f1PFxV6.png",
+      "guessed": false
+   },
+   {
+      "id": 15,
+      "src": "https://imgur.com/dD181Rg.png",
+      "guessed": false
+   },
+   {
+      "id": 16,
+      "src": "https://imgur.com/Lss6Pnt.png",
+      "guessed": false
+   },
+   {
+      "id": 17,
+      "src": "https://imgur.com/3bSmrn8.png",
       "guessed": false
    }
-  
+   
 ]
 export default images;
