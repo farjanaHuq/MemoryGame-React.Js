@@ -1,6 +1,6 @@
 # MemoryGame-React.Js
 
-![ResultImages](./reactpractice/public/screenshots.img1)
-![ResultImages](./reactpractice/public/screenshots.img2)
-![ResultImages](./reactpractice/public/screenshots.img3)
-![ResultImages](./reactpractice/public/screenshots.img4)
+![ResultImages](./reactpractice/public/screenshots/img1.png)
+![ResultImages](./reactpractice/public/screenshots/img2.png)
+![ResultImages](./reactpractice/public/screenshots/img3.png)
+![ResultImages](./reactpractice/public/screenshots/img4.png)
