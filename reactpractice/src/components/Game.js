@@ -44,8 +44,8 @@ class Game extends Component{
                 this.updateScore(images, index, this.state.topScore, "You guessed currectly!");
             }
 
-            if(this.state.score === guessLimit){
-                this.resetGame(images, 'Congratulation!! You Won!');
+            if(this.state.score === guessLimit){              
+                this.resetGame(images, 'Congratulation!!You Won!Play Again!');
             }
             else if(counter> guessLimit){
                 this.resetGame(images, 'Sorry!! Play Again!');

@@ -12,12 +12,12 @@ class Nav extends Component {
                 <li class="nav-item ">
                 <a className="navbar-brand" href="/"> Memory-Game </a>
                 </li>
-                <li class="nav-item">
-                   <span>{this.props.msgForPlayer}</span>
+                <li class="nav-item" id="nav-msg">
+                  <strong><span>{this.props.msgForPlayer}</span></strong>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" id="nav-score">
                   <span>
-                    Score: {this.props.score} | Top Score: {this.props.topScore}
+                    <strong>Score: {this.props.score} | Top Score: {this.props.topScore}</strong>
                   </span>
                 </li>
               </ul>
