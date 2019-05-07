@@ -1,5 +1,6 @@
 {
   "name": "reactpractice",
+  "homepage" : "http://myname.github.io/MemoryGame-React.Js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
