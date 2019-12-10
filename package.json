@@ -1,0 +1,24 @@
+{
+  "name": "memorygame-react",
+  "version": "1.0.0",
+  "description": "* First, click on any image to begin the game. ![ResultImages](./reactpractice/public/screenshots/img1.png) * If you click on different images, the score and top score will keep increamenting high. ![ResultImages](./reactpractice/public/screenshots/img2.png) * If you click on the same image, then your score will go down to zero, but the top score will display the highest score you made. ![ResultImages](./reactpractice/public/screenshots/img3.png) * If you click more than the guess limit (10), and cannot reach the top score, you then will loose the game. ![ResultImages](./reactpractice/public/screenshots/img4.png) * If you reach the top score and guess limit (10), you will win the game. ![ResultImages](./reactpractice/public/screenshots/img5.png)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farjanaHuq/MemoryGame-React.Js.git"
+  },
+  "author": "Farjana Huq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farjanaHuq/MemoryGame-React.Js/issues"
+  },
+  "homepage": "https://github.com/farjanaHuq/MemoryGame-React.Js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}
